@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const MONGO_URI = 'mongodb+srv://alijavedofficial0007:chenithori@backenddb.d5pyjuz.mongodb.net/?retryWrites=true&w=majority';
+const MONGO_URI = process.env.MONGO_URI;
 
 
 const connect = async () => {
